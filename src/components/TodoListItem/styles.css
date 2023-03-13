@@ -26,6 +26,7 @@
 .todo-list-item-delete {
   background: rgb(200, 200, 200);
   border: none;
+  border-radius: 4px;
   cursor: pointer;
   width: 24px;
   height: 24px;

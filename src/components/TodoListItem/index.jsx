@@ -15,7 +15,7 @@ const TodoListItem = ({ onCheck, checked, onDelete, label }) => (
         checked={checked}
         onChange={onCheck}
       />
-      <span className={checked ? "todo-list-item-checked" : ""}>{label}</span>
+      <span className={checked ? "todo-list-item-checked" : ""} >{label}</span>
     </div>
     <button type="button" className="todo-list-item-delete" onClick={onDelete}>
       x
